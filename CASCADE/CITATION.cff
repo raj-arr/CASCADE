@@ -1,16 +1,15 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite the article below and the MAST trace release."
-title: "CASCADE: Replication repository for 'How Agent Failures Propagate in LLM Multi-Agent Systems'"
+message: "If you use this repository, please cite it as below, together with the MAST trace release."
+title: "CASCADE Replication Package"
 type: dataset
-version: "1.0.0"
+version: "1.0"
+doi: "10.5281/zenodo.xxxxxxx"
 date-released: "2026-10-12"
 license: MIT
 authors:
-  - family-names: "[Family name]"
-    given-names: "[Given name]"
-    affiliation: "[Affiliation]"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
-repository-code: "https://github.com/[account]/CASCADE"
+  - family-names: "Ambavaram"
+    given-names: "Rajesh"
+repository-code: "https://github.com/raj-arr/CASCADE"
 keywords:
   - large language models
   - multi-agent systems
@@ -18,16 +17,15 @@ keywords:
   - error cascades
   - reliability
   - failure attribution
-preferred-citation:
-  type: article
-  title: "CASCADE: How Agent Failures Propagate in LLM Multi-Agent Systems—A Survey and Taxonomy"
-  authors:
-    - family-names: "[Family name]"
-      given-names: "[Given name]"
-  journal: "Artificial Intelligence Review"
-  year: 2026
-  status: submitted
 references:
+  - type: article
+    title: "CASCADE: How Agent Failures Propagate in LLM Multi-Agent Systems—A Survey and Taxonomy"
+    authors:
+      - family-names: "Ambavaram"
+        given-names: "Rajesh"
+    journal: "Artificial Intelligence Review"
+    year: 2026
+    status: submitted
   - type: conference-paper
     title: "Why Do Multi-Agent LLM Systems Fail?"
     authors:

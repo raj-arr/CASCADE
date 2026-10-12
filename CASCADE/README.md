@@ -1,10 +1,12 @@
 # CASCADE
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxxxx.svg)](https://doi.org/10.5281/zenodo.xxxxxxx)
+
 **How Agent Failures Propagate in LLM Multi-Agent Systems: Replication Repository**
 
 This repository accompanies the article:
 
-> [Author(s)] (2026). *CASCADE: How Agent Failures Propagate in LLM Multi-Agent Systems—A Survey and Taxonomy.* Manuscript submitted to *Artificial Intelligence Review*.
+> Ambavaram, R. (2026). *CASCADE: How Agent Failures Propagate in LLM Multi-Agent Systems—A Survey and Taxonomy.* Manuscript submitted to *Artificial Intelligence Review*.
 
 It contains everything needed to inspect, reproduce, and extend the paper's trace study (Section 7):
 
@@ -141,11 +143,16 @@ Value sets are defined in the codebook.
 
 ## Data provenance
 
-The condensed traces are derived from the public trace release of the MAST project: Cemri et al., "Why Do Multi-Agent LLM Systems Fail?", NeurIPS 2025 Datasets and Benchmarks Track, https://github.com/multi-agent-systems-failure-taxonomy/mast, commit `a70542e`. Please cite that work when using the traces.
+The condensed traces are derived from the trace data of the MAST project: Cemri et al., "Why Do Multi-Agent LLM Systems Fail?", NeurIPS 2025 Datasets and Benchmarks Track. We condensed the traces from the project's GitHub repository (https://github.com/multi-agent-systems-failure-taxonomy/mast, commit `a70542e`). The same project publishes its trace dataset, covering the same seven systems with the raw trace text, on Hugging Face as MAST-Data (https://huggingface.co/datasets/mcemri/MAST-Data) under the **Creative Commons Attribution 4.0 (CC BY 4.0)** license.
 
-**Before making this repository public, confirm that redistributing derived traces is permitted.** At the time of writing, the MAST repository did not include a license file. If redistribution is not permitted, remove `data/condensed_traces/` and point users to `scripts/condense_traces.py`, which regenerates the traces exactly from MAST.
+CC BY 4.0 permits redistribution and adaptation, provided that credit is given and changes are indicated. Accordingly:
 
-AppWorld traces contain names, e-mail addresses, and passwords that we believe belong to AppWorld's simulated test accounts and not to real people. Confirm this against AppWorld's documentation before publishing; the traces are left unchanged.
+- this repository credits the MAST authors here, in `LICENSE`, and in `CITATION.cff`;
+- the changes we made, namely condensation into numbered turns, clipping of long turns, omission of middle turns in seven traces, and removal of framework boilerplate, are described above and marked in every trace header.
+
+The GitHub repository itself carries no license file. We rely on the CC BY 4.0 release of the same data; if in doubt, confirm with the MAST authors.
+
+**AppWorld personal data.** The AppWorld traces contain names, e-mail addresses, and passwords. AppWorld's authors describe its data as "realistic but simulated data from digital lives and activities of ~100 fictitious users", created as 106 fictitious people with generated app activity (Trivedi et al., ACL 2024, Sections 1 and 2.3). Their ethics statement notes that it is "still possible, though unlikely" that the data contains uniquely identifiable personal information they missed. We have left the traces unchanged.
 
 ## Notes
 
@@ -155,7 +162,11 @@ AppWorld traces contain names, e-mail addresses, and passwords that we believe b
 
 ## Citation
 
-If you use this repository, please cite the article (see `CITATION.cff`) and the MAST release.
+If you use this repository, please cite it and the MAST release:
+
+> Ambavaram, R. (2026). *CASCADE Replication Package* (Version 1.0). Zenodo. https://doi.org/10.5281/zenodo.xxxxxxx
+
+Once the article is published, please cite the article as well (see `CITATION.cff`).
 
 ## License
 

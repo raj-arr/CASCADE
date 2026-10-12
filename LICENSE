@@ -1,0 +1,41 @@
+This repository contains code and non-code material under two licenses.
+
+1. Code (the scripts/ directory) is licensed under the MIT License:
+
+MIT License
+
+Copyright (c) 2026 Rajesh Ambavaram
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+2. The codebooks, coder instructions, annotations, manifests, and documentation
+are licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+Copyright (c) 2026 Rajesh Ambavaram.
+
+3. The condensed traces in data/condensed_traces/ are adapted from the trace data
+of the MAST project (Cemri et al., "Why Do Multi-Agent LLM Systems Fail?",
+NeurIPS 2025 Datasets and Benchmarks Track), released as MAST-Data under the
+Creative Commons Attribution 4.0 International License
+(https://huggingface.co/datasets/mcemri/MAST-Data; source code repository:
+https://github.com/multi-agent-systems-failure-taxonomy/mast, commit a70542e).
+Changes: traces were condensed into numbered agent turns, long turns were
+clipped, middle turns were omitted in seven traces, and framework boilerplate
+was removed; each trace header records the change. The adapted traces are
+shared under CC BY 4.0 with attribution to the MAST authors.

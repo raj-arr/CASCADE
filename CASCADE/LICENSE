@@ -4,7 +4,7 @@ This repository contains code and non-code material under two licenses.
 
 MIT License
 
-Copyright (c) 2026 [Author(s)]
+Copyright (c) 2026 Rajesh Ambavaram
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -27,10 +27,15 @@ SOFTWARE.
 2. The codebooks, coder instructions, annotations, manifests, and documentation
 are licensed under the Creative Commons Attribution 4.0 International License
 (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
-Copyright (c) 2026 [Author(s)].
+Copyright (c) 2026 Rajesh Ambavaram.
 
-3. The condensed traces in data/condensed_traces/ are derived from the public
-trace release of the MAST project
-(https://github.com/multi-agent-systems-failure-taxonomy/mast, commit a70542e)
-and remain subject to that project's terms. They are not covered by the
-licenses above.
+3. The condensed traces in data/condensed_traces/ are adapted from the trace data
+of the MAST project (Cemri et al., "Why Do Multi-Agent LLM Systems Fail?",
+NeurIPS 2025 Datasets and Benchmarks Track), released as MAST-Data under the
+Creative Commons Attribution 4.0 International License
+(https://huggingface.co/datasets/mcemri/MAST-Data; source code repository:
+https://github.com/multi-agent-systems-failure-taxonomy/mast, commit a70542e).
+Changes: traces were condensed into numbered agent turns, long turns were
+clipped, middle turns were omitted in seven traces, and framework boilerplate
+was removed; each trace header records the change. The adapted traces are
+shared under CC BY 4.0 with attribution to the MAST authors.
