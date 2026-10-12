@@ -1,6 +1,6 @@
 # CASCADE
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxxxx.svg)](https://doi.org/10.5281/zenodo.xxxxxxx)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23327806.svg)](https://doi.org/10.5281/zenodo.23327806)
 
 **How Agent Failures Propagate in LLM Multi-Agent Systems: Replication Repository**
 
@@ -164,7 +164,7 @@ The GitHub repository itself carries no license file. We rely on the CC BY 4.0 r
 
 If you use this repository, please cite it and the MAST release:
 
-> Ambavaram, R. (2026). *CASCADE Replication Package* (Version 1.0). Zenodo. https://doi.org/10.5281/zenodo.xxxxxxx
+> Ambavaram, R. (2026). *CASCADE Replication Package* (Version 1.0). Zenodo. https://doi.org/10.5281/zenodo.23327807
 
 Once the article is published, please cite the article as well (see `CITATION.cff`).
 
