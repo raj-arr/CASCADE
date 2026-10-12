@@ -3,7 +3,14 @@ message: "If you use this repository, please cite it as below, together with the
 title: "CASCADE Replication Package"
 type: dataset
 version: "1.0"
-doi: "10.5281/zenodo.xxxxxxx"
+doi: "10.5281/zenodo.23327806"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23327807"
+    description: "Version 1.0"
+  - type: doi
+    value: "10.5281/zenodo.23327806"
+    description: "All versions (concept DOI)"
 date-released: "2026-10-12"
 license: MIT
 authors:
