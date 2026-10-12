@@ -1,0 +1,172 @@
+sample,id,system,topology,turns,truncated,outcome,error_present,origin_layer,target,propagated,regime,blast_radius,hop_depth,detected,corrected,reached_output,detection_latency_turns,mech_relay,mech_snowball,mech_endorsement,mech_artifact,mech_loop,mech_delegation
+main,ag2_14137873,AG2 MathChat,two-agent loop (assistant + executor),4,False,FAILURE,YES,MODEL,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+main,ag2_2a8fa54b,AG2 MathChat,two-agent loop (assistant + executor),6,False,FAILURE,YES,MODEL,T2_STATE,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+main,ag2_305925e4,AG2 MathChat,two-agent loop (assistant + executor),4,False,FAILURE,YES,MODEL,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+main,ag2_3fecef98,AG2 MathChat,two-agent loop (assistant + executor),4,False,FAILURE,YES,MODEL,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+main,ag2_58be8739,AG2 MathChat,two-agent loop (assistant + executor),6,False,FAILURE,YES,MODEL,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+main,ag2_65b61e80,AG2 MathChat,two-agent loop (assistant + executor),6,False,FAILURE,YES,MODEL,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,YES,NO,YES,2.0,0,0,0,0,0,0
+main,ag2_6891537b,AG2 MathChat,two-agent loop (assistant + executor),4,False,FAILURE,YES,MODEL,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+main,ag2_70d75156,AG2 MathChat,two-agent loop (assistant + executor),6,False,FAILURE,YES,MODEL,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+main,ag2_7a11cca5,AG2 MathChat,two-agent loop (assistant + executor),4,False,FAILURE,YES,MODEL,T2_STATE,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+main,ag2_879c8582,AG2 MathChat,two-agent loop (assistant + executor),6,False,FAILURE,YES,MODEL,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+main,ag2_8ebbc1ed,AG2 MathChat,two-agent loop (assistant + executor),8,False,FAILURE,YES,MODEL,T2_STATE,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+main,ag2_98b26f55,AG2 MathChat,two-agent loop (assistant + executor),8,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,ag2_a5714da3,AG2 MathChat,two-agent loop (assistant + executor),4,False,FAILURE,YES,MODEL,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+main,ag2_bb32247c,AG2 MathChat,two-agent loop (assistant + executor),4,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,ag2_c6f0169a,AG2 MathChat,two-agent loop (assistant + executor),6,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,ag2_cd2629df,AG2 MathChat,two-agent loop (assistant + executor),6,False,FAILURE,YES,PLANNING,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+main,ag2_d442f2ae,AG2 MathChat,two-agent loop (assistant + executor),6,False,FAILURE,YES,PLANNING,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+main,ag2_e6b8c5fe,AG2 MathChat,two-agent loop (assistant + executor),4,False,FAILURE,YES,MODEL,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+main,ag2_ebb86b94,AG2 MathChat,two-agent loop (assistant + executor),6,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,ag2_ed74cccf,AG2 MathChat,two-agent loop (assistant + executor),4,False,FAILURE,YES,MODEL,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+main,appw_229360a_1,AppWorld multi-agent,star: supervisor agent messaging app-specific agents,42,False,FAILURE,YES,TOOL_ENV,T2_STATE,YES,P2_AMPLIFIED,1.0,1.0,YES,NO,YES,15,1,0,0,0,1,1
+main,appw_287e338_1,AppWorld multi-agent,star: supervisor agent messaging app-specific agents,38,False,FAILURE,YES,,T1_INTENT,YES,P2_AMPLIFIED,1.0,1.0,YES,NO,YES,20.0,1,1,0,0,0,0
+main,appw_396c5a2_1,AppWorld multi-agent,star: supervisor agent messaging app-specific agents,47,False,FAILURE,YES,TOOL_ENV,T2_STATE,YES,P2_AMPLIFIED,1.0,1.0,NO,NO,YES,,1,1,0,0,0,0
+main,appw_50e1ac9_1,AppWorld multi-agent,star: supervisor agent messaging app-specific agents,27,False,FAILURE,YES,,T2_STATE,YES,P2_AMPLIFIED,1.0,1.0,YES,NO,YES,4.0,1,0,0,0,1,0
+main,appw_57c3486_1,AppWorld multi-agent,star: supervisor agent messaging app-specific agents,34,False,FAILURE,YES,,T2_STATE,YES,P2_AMPLIFIED,1.0,1.0,YES,NO,YES,3.0,1,0,0,0,1,0
+main,appw_6171bbc_1,AppWorld multi-agent,star: supervisor agent messaging app-specific agents,26,False,FAILURE,YES,MODEL,T2_STATE,YES,P2_AMPLIFIED,1.0,1.0,NO,NO,YES,,1,1,0,0,0,0
+main,appw_692c77d_1,AppWorld multi-agent,star: supervisor agent messaging app-specific agents,27,False,FAILURE,YES,,T2_STATE,YES,P2_AMPLIFIED,1.0,1.0,YES,NO,YES,8,1,1,0,0,0,1
+main,appw_82e2fac_1,AppWorld multi-agent,star: supervisor agent messaging app-specific agents,44,False,FAILURE,YES,TOOL_ENV,T2_STATE,YES,P2_AMPLIFIED,1.0,1.0,NO,NO,YES,,1,1,0,0,0,0
+main,appw_aa8502b_1,AppWorld multi-agent,star: supervisor agent messaging app-specific agents,28,False,FAILURE,YES,,T2_STATE,YES,P2_AMPLIFIED,1.0,1.0,YES,NO,YES,8,1,1,0,0,0,1
+main,appw_b0a8eae_1,AppWorld multi-agent,star: supervisor agent messaging app-specific agents,94,False,FAILURE,YES,TOOL_ENV,T2_STATE,YES,P2_AMPLIFIED,1.0,1.0,NO,NO,YES,,1,1,0,0,0,0
+main,appw_b119b1f_1,AppWorld multi-agent,star: supervisor agent messaging app-specific agents,32,False,FAILURE,YES,TOOL_ENV,T2_STATE,YES,,1.0,1.0,YES,NO,YES,3,0,0,0,0,0,0
+main,appw_b7a9ee9_1,AppWorld multi-agent,star: supervisor agent messaging app-specific agents,28,False,FAILURE,YES,,T2_STATE,YES,P2_AMPLIFIED,1.0,1.0,YES,NO,YES,4.0,0,1,0,0,0,0
+main,appw_ccb4494_1,AppWorld multi-agent,star: supervisor agent messaging app-specific agents,117,False,FAILURE,YES,,T1_INTENT,YES,P1_PROPAGATED,1.0,1.0,NO,NO,YES,,1,0,0,0,0,1
+main,appw_ce359b5_1,AppWorld multi-agent,star: supervisor agent messaging app-specific agents,140,True,FAILURE,YES,TOOL_ENV,T2_STATE,YES,P2_AMPLIFIED,1.0,1.0,YES,NO,YES,2,1,0,0,0,1,0
+main,appw_cf6abd2_1,AppWorld multi-agent,star: supervisor agent messaging app-specific agents,62,False,FAILURE,YES,TOOL_ENV,T2_STATE,YES,P2_AMPLIFIED,1.0,1.0,NO,NO,YES,,1,1,0,0,0,1
+main,appw_fac291d_1,AppWorld multi-agent,star: supervisor agent messaging app-specific agents,30,False,FAILURE,YES,MODEL,T2_STATE,YES,P1_PROPAGATED,1.0,1.0,YES,NO,YES,2.5,1,0,0,0,0,0
+main,cdev_2048,ChatDev,"waterfall chain of role-pair dialogues (CEO, CPO, CTO, programmer, reviewer, tester)",26,False,UNCLEAR,YES,MODEL,,NO,P0_CONTAINED,0.0,0.0,YES,YES,NO,2.0,0,0,0,0,0,0
+main,cdev_BudgetTracker,ChatDev,"waterfall chain of role-pair dialogues (CEO, CPO, CTO, programmer, reviewer, tester)",28,False,SUCCESS,YES,MEMORY_CONTEXT,T3_CONTEXT,,,0.5,0.5,YES,YES,NO,6.0,0,0,0,0,0,0
+main,cdev_CandyCrush,ChatDev,"waterfall chain of role-pair dialogues (CEO, CPO, CTO, programmer, reviewer, tester)",28,False,UNCLEAR,YES,MODEL,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,YES,YES,NO,4,0,0,0,0,0,0
+main,cdev_Checkers,ChatDev,"waterfall chain of role-pair dialogues (CEO, CPO, CTO, programmer, reviewer, tester)",30,False,UNCLEAR,YES,MEMORY_CONTEXT,T1_INTENT,YES,P2_AMPLIFIED,1.0,1.0,YES,YES,NO,2,0,0,0,0,1,1
+main,cdev_Chess,ChatDev,"waterfall chain of role-pair dialogues (CEO, CPO, CTO, programmer, reviewer, tester)",34,False,FAILURE,YES,MODEL,T1_INTENT,YES,P2_AMPLIFIED,1.0,1.0,YES,NO,YES,6,0,0,1,1,1,0
+main,cdev_ConnectFour,ChatDev,"waterfall chain of role-pair dialogues (CEO, CPO, CTO, programmer, reviewer, tester)",26,False,,YES,,T1_INTENT,,,0.5,0.5,NO,,,,0,0,0,0,0,0
+main,cdev_ConnectionsNYT,ChatDev,"waterfall chain of role-pair dialogues (CEO, CPO, CTO, programmer, reviewer, tester)",31,False,UNCLEAR,YES,PLANNING,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,YES,PARTIAL,,6,0,0,0,0,0,0
+main,cdev_DetectPalindromes,ChatDev,"waterfall chain of role-pair dialogues (CEO, CPO, CTO, programmer, reviewer, tester)",26,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,cdev_FibonacciNumbers,ChatDev,"waterfall chain of role-pair dialogues (CEO, CPO, CTO, programmer, reviewer, tester)",26,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,cdev_FlappyBird,ChatDev,"waterfall chain of role-pair dialogues (CEO, CPO, CTO, programmer, reviewer, tester)",25,False,SUCCESS,YES,,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,YES,YES,NO,2,0,0,0,0,0,0
+main,cdev_Mastermind,ChatDev,"waterfall chain of role-pair dialogues (CEO, CPO, CTO, programmer, reviewer, tester)",26,False,SUCCESS,YES,MODEL,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,YES,YES,NO,2.0,0,0,0,0,0,0
+main,cdev_Minesweeper,ChatDev,"waterfall chain of role-pair dialogues (CEO, CPO, CTO, programmer, reviewer, tester)",26,False,UNCLEAR,YES,,T1_INTENT,YES,P2_AMPLIFIED,2.0,1.5,NO,NO,YES,,0,0,1,1,0,0
+main,cdev_MonopolyGo,ChatDev,"waterfall chain of role-pair dialogues (CEO, CPO, CTO, programmer, reviewer, tester)",38,False,FAILURE,YES,MODEL,T2_STATE,YES,P2_AMPLIFIED,2.0,1.0,YES,PARTIAL,YES,13,0,0,1,1,0,0
+main,cdev_ReversiOthello,ChatDev,"waterfall chain of role-pair dialogues (CEO, CPO, CTO, programmer, reviewer, tester)",27,False,SUCCESS,YES,MODEL,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,YES,YES,NO,4,0,0,0,0,0,0
+main,cdev_StrandsGame,ChatDev,"waterfall chain of role-pair dialogues (CEO, CPO, CTO, programmer, reviewer, tester)",27,False,UNCLEAR,YES,MODEL,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,YES,YES,NO,2,0,0,0,0,0,0
+main,cdev_StrandsNYT,ChatDev,"waterfall chain of role-pair dialogues (CEO, CPO, CTO, programmer, reviewer, tester)",29,False,FAILURE,YES,PLANNING,T1_INTENT,YES,P2_AMPLIFIED,1.0,1.0,NO,NO,YES,,0,1,0,1,0,0
+main,cdev_Tetris,ChatDev,"waterfall chain of role-pair dialogues (CEO, CPO, CTO, programmer, reviewer, tester)",31,False,SUCCESS,YES,MODEL,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,YES,YES,NO,4,0,0,0,0,0,0
+main,cdev_TextBasedSpaceInvaders,ChatDev,"waterfall chain of role-pair dialogues (CEO, CPO, CTO, programmer, reviewer, tester)",32,False,FAILURE,YES,MODEL,T2_STATE,YES,P2_AMPLIFIED,1.0,1.0,YES,NO,YES,5,0,0,0,1,1,0
+main,cdev_TicTacToe,ChatDev,"waterfall chain of role-pair dialogues (CEO, CPO, CTO, programmer, reviewer, tester)",27,False,UNCLEAR,NO,,,,,,,,,,,,,,,,
+main,cdev_Tiny Rouge,ChatDev,"waterfall chain of role-pair dialogues (CEO, CPO, CTO, programmer, reviewer, tester)",25,False,UNCLEAR,YES,MODEL,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,YES,YES,NO,2,0,0,0,0,0,0
+main,grp_trace_110,AG2 GroupChat + verifier,"group chat: problem solver, code executor, verifier",8,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,grp_trace_118,AG2 GroupChat + verifier,"group chat: problem solver, code executor, verifier",9,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,grp_trace_136,AG2 GroupChat + verifier,"group chat: problem solver, code executor, verifier",8,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,grp_trace_145,AG2 GroupChat + verifier,"group chat: problem solver, code executor, verifier",8,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,grp_trace_151,AG2 GroupChat + verifier,"group chat: problem solver, code executor, verifier",15,False,SUCCESS,YES,,,,,0.5,0.5,YES,YES,NO,2.5,0,0,0,0,0,0
+main,grp_trace_16,AG2 GroupChat + verifier,"group chat: problem solver, code executor, verifier",16,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,grp_trace_17,AG2 GroupChat + verifier,"group chat: problem solver, code executor, verifier",8,False,FAILURE,YES,MODEL,T1_INTENT,YES,P2_AMPLIFIED,2.0,2.0,NO,NO,YES,,1,0,1,0,0,0
+main,grp_trace_188,AG2 GroupChat + verifier,"group chat: problem solver, code executor, verifier",10,False,FAILURE,YES,MODEL,T1_INTENT,YES,P2_AMPLIFIED,2.0,2.0,NO,NO,YES,,1,0,1,0,0,0
+main,grp_trace_193,AG2 GroupChat + verifier,"group chat: problem solver, code executor, verifier",8,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,grp_trace_26,AG2 GroupChat + verifier,"group chat: problem solver, code executor, verifier",23,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,grp_trace_49,AG2 GroupChat + verifier,"group chat: problem solver, code executor, verifier",7,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,grp_trace_53,AG2 GroupChat + verifier,"group chat: problem solver, code executor, verifier",23,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,grp_trace_54,AG2 GroupChat + verifier,"group chat: problem solver, code executor, verifier",9,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,grp_trace_64,AG2 GroupChat + verifier,"group chat: problem solver, code executor, verifier",9,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,grp_trace_71,AG2 GroupChat + verifier,"group chat: problem solver, code executor, verifier",10,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,grp_trace_75,AG2 GroupChat + verifier,"group chat: problem solver, code executor, verifier",11,False,FAILURE,YES,MODEL,T1_INTENT,YES,P2_AMPLIFIED,2.0,2.0,NO,NO,YES,,1,1,1,0,0,0
+main,grp_trace_77,AG2 GroupChat + verifier,"group chat: problem solver, code executor, verifier",8,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,grp_trace_81,AG2 GroupChat + verifier,"group chat: problem solver, code executor, verifier",10,False,SUCCESS,YES,MODEL,T2_STATE,NO,P0_CONTAINED,0.0,0.0,YES,YES,NO,2,0,0,0,0,0,0
+main,grp_trace_84,AG2 GroupChat + verifier,"group chat: problem solver, code executor, verifier",8,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,grp_trace_96,AG2 GroupChat + verifier,"group chat: problem solver, code executor, verifier",9,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,hyp_django__django-11964,HyperAgent,"hierarchical: planner delegating to navigator, editor, executor",28,False,FAILURE,YES,PLANNING,T2_STATE,YES,P2_AMPLIFIED,2.0,2.0,NO,NO,YES,,0,1,0,1,0,1
+main,hyp_django__django-12308,HyperAgent,"hierarchical: planner delegating to navigator, editor, executor",287,True,FAILURE,YES,MODEL,T2_STATE,YES,P2_AMPLIFIED,3.0,3.0,YES,NO,YES,218,1,1,1,1,1,1
+main,hyp_django__django-12908,HyperAgent,"hierarchical: planner delegating to navigator, editor, executor",60,False,FAILURE,YES,PLANNING,T2_STATE,YES,P2_AMPLIFIED,2.0,2.0,YES,NO,YES,41,0,1,0,1,0,1
+main,hyp_django__django-13757,HyperAgent,"hierarchical: planner delegating to navigator, editor, executor",48,False,FAILURE,YES,MODEL,T2_STATE,YES,P2_AMPLIFIED,2.0,2.0,YES,NO,YES,3,0,1,1,1,1,1
+main,hyp_django__django-13925,HyperAgent,"hierarchical: planner delegating to navigator, editor, executor",65,False,FAILURE,YES,PLANNING,T1_INTENT,YES,P2_AMPLIFIED,2.0,2.0,NO,NO,YES,,0,1,0,1,1,1
+main,hyp_django__django-14411,HyperAgent,"hierarchical: planner delegating to navigator, editor, executor",61,False,FAILURE,YES,PLANNING,T2_STATE,YES,P2_AMPLIFIED,2.0,2.0,NO,NO,YES,,0,1,1,1,0,1
+main,hyp_django__django-16408,HyperAgent,"hierarchical: planner delegating to navigator, editor, executor",52,False,FAILURE,YES,MODEL,T2_STATE,YES,P1_PROPAGATED,1.0,1.0,NO,NO,YES,,1,0,0,0,0,0
+main,hyp_django__django-16816,HyperAgent,"hierarchical: planner delegating to navigator, editor, executor",166,True,FAILURE,YES,PLANNING,T1_INTENT,YES,P2_AMPLIFIED,3.0,3.0,NO,NO,YES,,1,1,1,1,1,1
+main,hyp_matplotlib__matplotlib-24265,HyperAgent,"hierarchical: planner delegating to navigator, editor, executor",30,False,FAILURE,YES,PLANNING,T1_INTENT,YES,P2_AMPLIFIED,2.0,2.0,NO,NO,YES,,1,1,0,1,0,1
+main,hyp_matplotlib__matplotlib-25332,HyperAgent,"hierarchical: planner delegating to navigator, editor, executor",126,True,FAILURE,YES,MODEL,T2_STATE,YES,P2_AMPLIFIED,2.0,2.0,YES,,,35.0,1,1,1,0,0,1
+main,hyp_pydata__xarray-3364,HyperAgent,"hierarchical: planner delegating to navigator, editor, executor",59,False,FAILURE,YES,PLANNING,T2_STATE,YES,P2_AMPLIFIED,2.0,2.0,YES,NO,YES,,0,1,0,1,0,1
+main,hyp_pytest-dev__pytest-7220,HyperAgent,"hierarchical: planner delegating to navigator, editor, executor",139,True,FAILURE,YES,PLANNING,T2_STATE,YES,P2_AMPLIFIED,2.0,2.0,NO,NO,YES,,0,0,1,1,0,1
+main,hyp_scikit-learn__scikit-learn-10508,HyperAgent,"hierarchical: planner delegating to navigator, editor, executor",37,False,SUCCESS,YES,TOOL_ENV,T2_STATE,NO,P0_CONTAINED,0.0,0.0,YES,,,1.0,0,0,0,0,0,0
+main,hyp_sphinx-doc__sphinx-10451,HyperAgent,"hierarchical: planner delegating to navigator, editor, executor",49,False,FAILURE,YES,MODEL,T2_STATE,YES,P2_AMPLIFIED,3.0,2.0,YES,NO,YES,12,1,1,0,1,1,1
+main,hyp_sphinx-doc__sphinx-11445,HyperAgent,"hierarchical: planner delegating to navigator, editor, executor",54,False,FAILURE,YES,MODEL,T2_STATE,YES,P2_AMPLIFIED,2.0,2.0,YES,NO,YES,12,0,1,1,1,0,1
+main,hyp_sympy__sympy-13146,HyperAgent,"hierarchical: planner delegating to navigator, editor, executor",42,False,FAILURE,YES,PLANNING,T1_INTENT,YES,P2_AMPLIFIED,2.0,2.0,NO,NO,YES,,0,1,0,1,0,1
+main,hyp_sympy__sympy-13915,HyperAgent,"hierarchical: planner delegating to navigator, editor, executor",48,False,FAILURE,YES,PLANNING,T1_INTENT,YES,P2_AMPLIFIED,2.0,2.0,YES,NO,YES,11,0,1,0,1,0,1
+main,hyp_sympy__sympy-15346,HyperAgent,"hierarchical: planner delegating to navigator, editor, executor",42,False,FAILURE,YES,,T2_STATE,YES,P2_AMPLIFIED,2.0,2.0,NO,NO,YES,,0,1,0,1,0,1
+main,hyp_sympy__sympy-19254,HyperAgent,"hierarchical: planner delegating to navigator, editor, executor",164,True,FAILURE,YES,MODEL,T2_STATE,YES,P2_AMPLIFIED,2.0,2.0,NO,NO,YES,,1,1,0,1,1,1
+main,hyp_sympy__sympy-20212,HyperAgent,"hierarchical: planner delegating to navigator, editor, executor",218,True,FAILURE,YES,MODEL,T2_STATE,YES,P2_AMPLIFIED,3.0,2.0,YES,PARTIAL,,61,1,1,1,0,1,1
+main,mag_08f3a05f,Magentic-One,"star: orchestrator with ledger delegating to WebSurfer, FileSurfer, Coder, ComputerTerminal",4,False,FAILURE,YES,MODEL,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+main,mag_27d5d136,Magentic-One,"star: orchestrator with ledger delegating to WebSurfer, FileSurfer, Coder, ComputerTerminal",4,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,mag_2dfc4c37,Magentic-One,"star: orchestrator with ledger delegating to WebSurfer, FileSurfer, Coder, ComputerTerminal",33,False,SUCCESS,YES,MODEL,T3_CONTEXT,YES,P1_PROPAGATED,1.0,1.0,NO,NO,YES,,1,0,0,0,0,0
+main,mag_4b6bb5f7,Magentic-One,"star: orchestrator with ledger delegating to WebSurfer, FileSurfer, Coder, ComputerTerminal",8,False,FAILURE,YES,MODEL,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+main,mag_624cbf11,Magentic-One,"star: orchestrator with ledger delegating to WebSurfer, FileSurfer, Coder, ComputerTerminal",15,False,FAILURE,YES,MODEL,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+main,mag_708b99c5,Magentic-One,"star: orchestrator with ledger delegating to WebSurfer, FileSurfer, Coder, ComputerTerminal",36,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,mag_73c1b9fe,Magentic-One,"star: orchestrator with ledger delegating to WebSurfer, FileSurfer, Coder, ComputerTerminal",12,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,mag_7673d772,Magentic-One,"star: orchestrator with ledger delegating to WebSurfer, FileSurfer, Coder, ComputerTerminal",16,False,FAILURE,YES,TOOL_ENV,T1_INTENT,YES,P2_AMPLIFIED,1.0,1.0,NO,NO,YES,,1,1,0,0,0,0
+main,mag_7a4a336d,Magentic-One,"star: orchestrator with ledger delegating to WebSurfer, FileSurfer, Coder, ComputerTerminal",41,False,FAILURE,YES,,,,,0.5,0.5,YES,NO,YES,22.5,0,0,0,0,0,0
+main,mag_7b5377b0,Magentic-One,"star: orchestrator with ledger delegating to WebSurfer, FileSurfer, Coder, ComputerTerminal",16,False,FAILURE,YES,MODEL,T2_STATE,YES,P2_AMPLIFIED,1.0,1.0,NO,NO,YES,,0,1,1,0,0,1
+main,mag_7cc4acfa,Magentic-One,"star: orchestrator with ledger delegating to WebSurfer, FileSurfer, Coder, ComputerTerminal",8,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,mag_7dd30055,Magentic-One,"star: orchestrator with ledger delegating to WebSurfer, FileSurfer, Coder, ComputerTerminal",18,False,FAILURE,YES,MODEL,T2_STATE,YES,P1_PROPAGATED,1.0,1.0,NO,NO,YES,,1,0,0,1,0,0
+main,mag_8f80e01c,Magentic-One,"star: orchestrator with ledger delegating to WebSurfer, FileSurfer, Coder, ComputerTerminal",42,False,FAILURE,YES,,T2_STATE,YES,P2_AMPLIFIED,1.0,1.0,YES,NO,YES,15,0,0,0,0,0,0
+main,mag_99c9cc74,Magentic-One,"star: orchestrator with ledger delegating to WebSurfer, FileSurfer, Coder, ComputerTerminal",40,False,FAILURE,YES,MODEL,T2_STATE,YES,P2_AMPLIFIED,3.0,1.0,NO,NO,YES,,1,0,0,0,1,1
+main,mag_9f41b083,Magentic-One,"star: orchestrator with ledger delegating to WebSurfer, FileSurfer, Coder, ComputerTerminal",38,False,FAILURE,YES,TOOL_ENV,T1_INTENT,YES,P2_AMPLIFIED,1.0,1.0,YES,NO,YES,21,0,1,0,0,1,1
+main,mag_b816bfce,Magentic-One,"star: orchestrator with ledger delegating to WebSurfer, FileSurfer, Coder, ComputerTerminal",10,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,mag_bda648d7,Magentic-One,"star: orchestrator with ledger delegating to WebSurfer, FileSurfer, Coder, ComputerTerminal",4,False,FAILURE,YES,MEMORY_CONTEXT,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+main,mag_cf106601,Magentic-One,"star: orchestrator with ledger delegating to WebSurfer, FileSurfer, Coder, ComputerTerminal",36,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,mag_dd3c7503,Magentic-One,"star: orchestrator with ledger delegating to WebSurfer, FileSurfer, Coder, ComputerTerminal",18,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,mag_df6561b2,Magentic-One,"star: orchestrator with ledger delegating to WebSurfer, FileSurfer, Coder, ComputerTerminal",41,False,FAILURE,YES,PLANNING,T2_STATE,YES,P2_AMPLIFIED,1.0,1.0,YES,NO,YES,35,0,0,0,0,1,1
+main,mgpt_programdev_0,MetaGPT,"sequential SOP pipeline (coder, tester, reviewer)",4,False,UNCLEAR,YES,MODEL,,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+main,mgpt_programdev_1,MetaGPT,"sequential SOP pipeline (coder, tester, reviewer)",4,False,FAILURE,YES,MODEL,T2_STATE,YES,P1_PROPAGATED,1.0,1.0,NO,NO,YES,,0,0,0,1,0,0
+main,mgpt_programdev_11,MetaGPT,"sequential SOP pipeline (coder, tester, reviewer)",4,False,FAILURE,YES,MODEL,T1_INTENT,YES,P1_PROPAGATED,1.0,1.0,NO,NO,YES,,0,0,0,1,0,0
+main,mgpt_programdev_12,MetaGPT,"sequential SOP pipeline (coder, tester, reviewer)",4,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,mgpt_programdev_13,MetaGPT,"sequential SOP pipeline (coder, tester, reviewer)",4,False,FAILURE,YES,PLANNING,T1_INTENT,YES,P1_PROPAGATED,1.0,1.0,NO,NO,YES,,0,0,0,1,0,0
+main,mgpt_programdev_14,MetaGPT,"sequential SOP pipeline (coder, tester, reviewer)",4,False,FAILURE,YES,PLANNING,T1_INTENT,YES,P1_PROPAGATED,1.0,1.0,NO,NO,YES,,0,0,0,1,0,0
+main,mgpt_programdev_16,MetaGPT,"sequential SOP pipeline (coder, tester, reviewer)",4,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,mgpt_programdev_17,MetaGPT,"sequential SOP pipeline (coder, tester, reviewer)",4,False,FAILURE,YES,,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+main,mgpt_programdev_18,MetaGPT,"sequential SOP pipeline (coder, tester, reviewer)",4,False,UNCLEAR,YES,,,,,0.5,0.5,NO,NO,YES,,0,0,0,0,0,0
+main,mgpt_programdev_2,MetaGPT,"sequential SOP pipeline (coder, tester, reviewer)",4,False,FAILURE,YES,,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+main,mgpt_programdev_21,MetaGPT,"sequential SOP pipeline (coder, tester, reviewer)",4,False,SUCCESS,YES,COMMUNICATION,T3_CONTEXT,NO,P0_CONTAINED,0.0,0.0,NO,NO,,,0,0,0,0,0,0
+main,mgpt_programdev_22,MetaGPT,"sequential SOP pipeline (coder, tester, reviewer)",4,False,UNCLEAR,NO,,,,,,,,,,,,,,,,
+main,mgpt_programdev_24,MetaGPT,"sequential SOP pipeline (coder, tester, reviewer)",4,False,FAILURE,YES,PLANNING,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+main,mgpt_programdev_25,MetaGPT,"sequential SOP pipeline (coder, tester, reviewer)",4,False,UNCLEAR,YES,COMMUNICATION,T3_CONTEXT,NO,P0_CONTAINED,0.0,0.0,NO,NO,,,0,0,0,0,0,0
+main,mgpt_programdev_27,MetaGPT,"sequential SOP pipeline (coder, tester, reviewer)",4,False,FAILURE,YES,MODEL,T1_INTENT,YES,P1_PROPAGATED,1.0,1.0,NO,NO,YES,,0,0,0,1,0,0
+main,mgpt_programdev_29,MetaGPT,"sequential SOP pipeline (coder, tester, reviewer)",4,False,SUCCESS,YES,MODEL,T2_STATE,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+main,mgpt_programdev_3,MetaGPT,"sequential SOP pipeline (coder, tester, reviewer)",4,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,mgpt_programdev_4,MetaGPT,"sequential SOP pipeline (coder, tester, reviewer)",4,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+main,mgpt_programdev_8,MetaGPT,"sequential SOP pipeline (coder, tester, reviewer)",4,False,FAILURE,YES,PLANNING,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+main,mgpt_programdev_9,MetaGPT,"sequential SOP pipeline (coder, tester, reviewer)",4,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+heldout,ag2_094b6ef4,AG2 MathChat,two-agent loop (assistant + executor),4,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+heldout,ag2_2e7a0791,AG2 MathChat,two-agent loop (assistant + executor),6,False,FAILURE,YES,PLANNING,T2_STATE,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+heldout,ag2_674c4a6f,AG2 MathChat,two-agent loop (assistant + executor),4,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+heldout,ag2_957ccc1d,AG2 MathChat,two-agent loop (assistant + executor),6,False,FAILURE,YES,MODEL,T2_STATE,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+heldout,ag2_a536a498,AG2 MathChat,two-agent loop (assistant + executor),4,False,FAILURE,YES,PLANNING,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+heldout,ag2_f56de534,AG2 MathChat,two-agent loop (assistant + executor),4,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+heldout,cdev_Pong,ChatDev,"waterfall chain of role-pair dialogues (CEO, CPO, CTO, programmer, reviewer, tester)",26,False,UNCLEAR,YES,MODEL,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,YES,YES,NO,2,0,0,0,0,0,0
+heldout,cdev_SnakeGame,ChatDev,"waterfall chain of role-pair dialogues (CEO, CPO, CTO, programmer, reviewer, tester)",26,False,UNCLEAR,NO,,,,,,,,,,,,,,,,
+heldout,cdev_Sudoku,ChatDev,"waterfall chain of role-pair dialogues (CEO, CPO, CTO, programmer, reviewer, tester)",26,False,,YES,MODEL,T1_INTENT,NO,P0_CONTAINED,0.0,0.0,YES,YES,NO,2.0,0,0,0,0,0,0
+heldout,cdev_TheCrossword,ChatDev,"waterfall chain of role-pair dialogues (CEO, CPO, CTO, programmer, reviewer, tester)",28,False,UNCLEAR,YES,MODEL,T2_STATE,NO,P0_CONTAINED,0.0,0.0,YES,YES,NO,2,0,0,0,0,0,0
+heldout,cdev_Wordle,ChatDev,"waterfall chain of role-pair dialogues (CEO, CPO, CTO, programmer, reviewer, tester)",27,False,UNCLEAR,NO,,,,,,,,,,,,,,,,
+heldout,grp_trace_0,AG2 GroupChat + verifier,"group chat: problem solver, code executor, verifier",9,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+heldout,grp_trace_101,AG2 GroupChat + verifier,"group chat: problem solver, code executor, verifier",8,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+heldout,grp_trace_187,AG2 GroupChat + verifier,"group chat: problem solver, code executor, verifier",8,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+heldout,grp_trace_23,AG2 GroupChat + verifier,"group chat: problem solver, code executor, verifier",9,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+heldout,grp_trace_45,AG2 GroupChat + verifier,"group chat: problem solver, code executor, verifier",7,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+heldout,grp_trace_76,AG2 GroupChat + verifier,"group chat: problem solver, code executor, verifier",9,False,SUCCESS,NO,,,,,,,,,,,,,,,,
+heldout,hyp_django__django-12747,HyperAgent,"hierarchical: planner delegating to navigator, editor, executor",121,True,FAILURE,YES,MODEL,T2_STATE,YES,P2_AMPLIFIED,2.0,2.0,YES,PARTIAL,UNCLEAR,1.0,1,0,1,1,1,1
+heldout,hyp_psf__requests-2148,HyperAgent,"hierarchical: planner delegating to navigator, editor, executor",110,False,UNCLEAR,YES,PLANNING,T2_STATE,YES,P2_AMPLIFIED,2.0,2.0,YES,PARTIAL,YES,6.5,0,0,1,1,1,1
+heldout,hyp_psf__requests-863,HyperAgent,"hierarchical: planner delegating to navigator, editor, executor",43,False,SUCCESS,YES,PLANNING,T2_STATE,YES,P2_AMPLIFIED,1.0,1.0,YES,YES,NO,1,0,1,0,0,0,1
+heldout,hyp_pylint-dev__pylint-7993,HyperAgent,"hierarchical: planner delegating to navigator, editor, executor",48,False,FAILURE,YES,MODEL,T2_STATE,YES,P2_AMPLIFIED,2.0,2.0,YES,NO,YES,3,0,1,0,1,0,1
+heldout,hyp_scikit-learn__scikit-learn-10949,HyperAgent,"hierarchical: planner delegating to navigator, editor, executor",145,True,FAILURE,YES,,T2_STATE,YES,P2_AMPLIFIED,2.0,2.0,YES,PARTIAL,YES,2,0,1,0,1,1,0
+heldout,hyp_sympy__sympy-18698,HyperAgent,"hierarchical: planner delegating to navigator, editor, executor",72,False,FAILURE,YES,MODEL,T2_STATE,YES,P2_AMPLIFIED,3.0,2.0,NO,NO,YES,,0,1,0,1,0,1
+heldout,mag_0b260a57,Magentic-One,"star: orchestrator with ledger delegating to WebSurfer, FileSurfer, Coder, ComputerTerminal",41,False,FAILURE,YES,PLANNING,T1_INTENT,YES,P2_AMPLIFIED,2.0,2.0,,NO,YES,,0,0,0,0,1,1
+heldout,mag_20194330,Magentic-One,"star: orchestrator with ledger delegating to WebSurfer, FileSurfer, Coder, ComputerTerminal",41,False,FAILURE,YES,MODEL,T2_STATE,YES,P1_PROPAGATED,1.0,1.0,NO,NO,YES,,0,0,0,0,0,1
+heldout,mag_5d0080cb,Magentic-One,"star: orchestrator with ledger delegating to WebSurfer, FileSurfer, Coder, ComputerTerminal",40,False,FAILURE,YES,TOOL_ENV,,YES,P2_AMPLIFIED,2.0,2.0,,NO,YES,,0,0,0,0,1,0
+heldout,mag_9e1fc53b,Magentic-One,"star: orchestrator with ledger delegating to WebSurfer, FileSurfer, Coder, ComputerTerminal",8,False,FAILURE,YES,MODEL,T2_STATE,YES,P2_AMPLIFIED,1.0,1.0,NO,NO,YES,,1,1,0,0,0,0
+heldout,mag_e4e91f1c,Magentic-One,"star: orchestrator with ledger delegating to WebSurfer, FileSurfer, Coder, ComputerTerminal",14,False,FAILURE,YES,MODEL,T2_STATE,YES,P1_PROPAGATED,1.0,1.0,NO,NO,YES,,1,0,0,0,0,0
+heldout,mag_ec09fa32,Magentic-One,"star: orchestrator with ledger delegating to WebSurfer, FileSurfer, Coder, ComputerTerminal",10,False,FAILURE,YES,MODEL,T2_STATE,YES,P2_AMPLIFIED,1.0,1.0,YES,NO,YES,3,0,1,1,1,0,0
+heldout,mgpt_programdev_10,MetaGPT,"sequential SOP pipeline (coder, tester, reviewer)",4,False,UNCLEAR,YES,MODEL,,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+heldout,mgpt_programdev_15,MetaGPT,"sequential SOP pipeline (coder, tester, reviewer)",4,False,SUCCESS,YES,MODEL,T3_CONTEXT,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+heldout,mgpt_programdev_19,MetaGPT,"sequential SOP pipeline (coder, tester, reviewer)",4,False,UNCLEAR,YES,MODEL,T2_STATE,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+heldout,mgpt_programdev_23,MetaGPT,"sequential SOP pipeline (coder, tester, reviewer)",4,False,SUCCESS,YES,MODEL,T2_STATE,NO,P0_CONTAINED,0.0,0.0,NO,YES,YES,,0,0,0,0,0,0
+heldout,mgpt_programdev_28,MetaGPT,"sequential SOP pipeline (coder, tester, reviewer)",4,False,SUCCESS,YES,MODEL,T2_STATE,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
+heldout,mgpt_programdev_6,MetaGPT,"sequential SOP pipeline (coder, tester, reviewer)",4,False,SUCCESS,YES,MODEL,T3_CONTEXT,NO,P0_CONTAINED,0.0,0.0,NO,NO,YES,,0,0,0,0,0,0
