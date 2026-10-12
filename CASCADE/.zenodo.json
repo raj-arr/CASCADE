@@ -1,0 +1,13 @@
+{
+  "title": "CASCADE Replication Package",
+  "upload_type": "dataset",
+  "description": "Replication package for 'CASCADE: How Agent Failures Propagate in LLM Multi-Agent Systems—A Survey and Taxonomy' (submitted to Artificial Intelligence Review). Contains the propagation codebook (v1.0, v1.1, v1.2), 177 non-overlapping condensed execution traces adapted from MAST-Data (CC BY 4.0), the coder instructions, the raw annotations of three coders, the consensus annotations, and the analysis and figure scripts.",
+  "creators": [{"name": "Ambavaram, Rajesh"}],
+  "keywords": ["large language models", "multi-agent systems", "failure propagation", "error cascades", "reliability", "failure attribution"],
+  "license": "cc-by-4.0",
+  "version": "1.0",
+  "related_identifiers": [
+    {"identifier": "https://github.com/multi-agent-systems-failure-taxonomy/mast", "relation": "isDerivedFrom", "resource_type": "dataset"},
+    {"identifier": "https://huggingface.co/datasets/mcemri/MAST-Data", "relation": "isDerivedFrom", "resource_type": "dataset"}
+  ]
+}
