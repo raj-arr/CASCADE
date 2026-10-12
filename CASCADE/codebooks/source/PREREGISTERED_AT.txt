@@ -1,6 +1,0 @@
-codebook_v1.1.md sha256=3ecb1a1fcbf8f4fc547b4f0cb0b9511882e365aaec86442baff06766ff337b4c
-frozen before main coding, 2026-10-11T23:50:40.589333Z
-sample: 136 traces (manifest in traces_condensed/_manifest.json)
-codebook_v1.2.md sha256=a25caa8925790448f8534a626235667576f845a9c218eac75ddb39c60ac3bc6c
-frozen before held-out coding, 2026-10-12T00:14:25.278138Z
-held-out sample: 36 traces (heldout/_manifest.json)
