@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below, together with the MAST trace release."
+title: "CASCADE Replication Package"
+type: dataset
+version: "1.0"
+doi: "10.5281/zenodo.23327806"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23327807"
+    description: "Version 1.0"
+  - type: doi
+    value: "10.5281/zenodo.23327806"
+    description: "All versions (concept DOI)"
+date-released: "2026-10-12"
+license: MIT
+authors:
+  - family-names: "Ambavaram"
+    given-names: "Rajesh"
+repository-code: "https://github.com/raj-arr/CASCADE"
+keywords:
+  - large language models
+  - multi-agent systems
+  - failure propagation
+  - error cascades
+  - reliability
+  - failure attribution
+references:
+  - type: article
+    title: "CASCADE: How Agent Failures Propagate in LLM Multi-Agent Systems—A Survey and Taxonomy"
+    authors:
+      - family-names: "Ambavaram"
+        given-names: "Rajesh"
+    journal: "Artificial Intelligence Review"
+    year: 2026
+    status: submitted
+  - type: conference-paper
+    title: "Why Do Multi-Agent LLM Systems Fail?"
+    authors:
+      - family-names: "Cemri"
+        given-names: "Mert"
+      - name: "et al."
+    year: 2025
+    collection-title: "Advances in Neural Information Processing Systems 38 (NeurIPS 2025), Datasets and Benchmarks Track"
+    url: "https://github.com/multi-agent-systems-failure-taxonomy/mast"
