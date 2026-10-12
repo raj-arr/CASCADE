@@ -1,0 +1,94 @@
+[
+ {
+  "id": "ag2_d8c37fac",
+  "system": "AG2 MathChat",
+  "topology": "two-agent loop (assistant + executor)",
+  "turns": 4,
+  "chars": 3431,
+  "truncated": false,
+  "mast_human": {
+   "Fail to detect ambiguities/contradictions": "no",
+   "Proceed with incorrect assumptions": "no",
+   "Fail to elicit clarification": "no",
+   "Tendency to overachieve": "no",
+   "Underperform by waiting on instructions": "no",
+   "Withholding relevant information": "no",
+   "Derailing from task objectives": "no",
+   "Waiting on agents to discover known insights for increased confidence": "no",
+   "Redundant conversation turns for iterative tasks rather than batching": "no",
+   "Unaware of stopping conditions": "no",
+   "Difficulty in agreeing with agents": "no",
+   "No attempt to verify outcome": "no",
+   "Evaluator agent fails to be critical": "no",
+   "Poor adherence to specified constraints": "no",
+   "Misalignment between internal thoughts and response message": "no",
+   "Claiming that a task is done while it is not true.": "no",
+   "Ignoring good suggestions from other agent": "no",
+   "Discontinued reasoning": "no",
+   "Trajectory restart": "no",
+   "Step repetition": "no",
+   "Invented content": "no",
+   "Blurring roles": "no"
+  },
+  "src": "AG2/d8c37fac-fcc1-5fdd-9dc4-4daf33a02f73_human.json"
+ },
+ {
+  "id": "grp_trace_181",
+  "system": "AG2 GroupChat + verifier",
+  "topology": "group chat: problem solver, code executor, verifier",
+  "turns": 10,
+  "chars": 4469,
+  "truncated": false,
+  "src": "math_interventions/topology_traces/trace_181.txt"
+ },
+ {
+  "id": "mgpt_programdev_20",
+  "system": "MetaGPT",
+  "topology": "sequential SOP pipeline (coder, tester, reviewer)",
+  "turns": 4,
+  "chars": 4903,
+  "truncated": false,
+  "src": "programdev/metagpt/programdev_20.txt"
+ },
+ {
+  "id": "cdev_GoldMiner",
+  "system": "ChatDev",
+  "topology": "waterfall chain of role-pair dialogues (CEO, CPO, CTO, programmer, reviewer, tester)",
+  "turns": 30,
+  "chars": 40299,
+  "truncated": false,
+  "src": "programdev/chatdev/GoldMiner"
+ },
+ {
+  "id": "hyp_sympy__sympy-14317",
+  "system": "HyperAgent",
+  "topology": "hierarchical: planner delegating to navigator, editor, executor",
+  "turns": 64,
+  "chars": 37025,
+  "truncated": false,
+  "mast_human": {
+   "Fail to detect ambiguities/contradictions": "no",
+   "Misalignment between internal thoughts and response message": "no",
+   "Claiming that a task is done while it is not true.": "no",
+   "Ignoring good suggestions from other agent": "no",
+   "Not exploring every option proposed by other agents": "no",
+   "Discontinued reasoning": "no",
+   "Withholding relevant information": "no",
+   "Derailing from task objectives": "no",
+   "No attempt to verify outcome": "no",
+   "Trajectory restart": "no",
+   "Step repetition": "no",
+   "Invented content": "no"
+  },
+  "src": "HyperAgent/sympy__sympy-14317.json"
+ },
+ {
+  "id": "mag_389793a7",
+  "system": "Magentic-One",
+  "topology": "star: orchestrator with ledger delegating to WebSurfer, FileSurfer, Coder, ComputerTerminal",
+  "turns": 12,
+  "chars": 6099,
+  "truncated": false,
+  "src": "MagenticOne_GAIA/gaia_validation_level_1__MagenticOne/389793a7-ca17-4e82-81cb-2b3a2391b4b9/0/console_log.txt"
+ }
+]
